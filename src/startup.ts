@@ -16,7 +16,6 @@ function onClickMenuItem() {
     helloWorld();
 }
 
-function helloWorld()
-{
+function helloWorld() {
     console.log("hello world!");
 }
