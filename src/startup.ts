@@ -13,5 +13,10 @@ export function startup() {
 
 function onClickMenuItem() {
     // Write code here that should happen when the player clicks the menu item under the map icon.
-    console.log("Clicked menu item");
+    helloWorld();
+}
+
+function helloWorld()
+{
+    console.log("hello world!");
 }
