@@ -1,11 +1,7 @@
 name: Prettier CI
 
-# This action works with pull requests and pushes
 on:
     pull_request:
-    push:
-        branches:
-            - main
 
 jobs:
     prettier:
