@@ -15,11 +15,12 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          # Make sure the actual branch is checked out when running on pull requests
+          fetch-depth: 0
           ref: ${{ github.head_ref }}
+          persist-credentials: false
 
       - name: Prettify code
         uses: creyD/prettier_action@v4.3
         with:
-          prettier_options: --write .
-
+          dry: true
+          prettier_options: --check .
