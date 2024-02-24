@@ -1,5 +1,5 @@
 export const name = "name-of-your-plugin";
-export const authors = [ "Your name" ];
+export const authors = ["Your name"];
 export const license = "MIT";
 
 export const version = "1.0.0";
